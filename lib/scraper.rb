@@ -14,7 +14,7 @@ class Scraper
   end
   
   def make_courses
-    get_courses
+    get_courses.each do ||
   end
   
   def print_courses
