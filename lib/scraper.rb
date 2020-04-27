@@ -14,8 +14,7 @@ class Scraper
   end
   
   def make_courses
-    get_courses.each do |element|
-      Course.all << element
+    
     end
   end
   
